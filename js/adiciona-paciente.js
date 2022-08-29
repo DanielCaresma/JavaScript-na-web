@@ -6,7 +6,6 @@ botaoAdicionar.addEventListener("click", function (event) {
     
     var paciente = obtemPacienteDoFormulario(form);
 
-    console.log(paciente);
     
     var pacienteTr = montaTr(paciente);
 
